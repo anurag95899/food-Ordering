@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="sidenav">
+            <div class="foodmenu">
+                <h4>Home</h4>
+                <h4>Top Restaurants</h4>
+                <h4>Food</h4>
+                <h4>Cart</h4>
+                <h4>Sign in</h4>
+
+            </div>
+        </div>
+        <div id="foodnav">
+            <img src="WhatsApp_Image_2023-02-13_at_01.05.29-removebg-preview.png" alt="logo">
+            <div id="foodmenu">
+                <h4>Home</h4>
+                <h4>Top Restaurants</h4>
+                <h4>Food</h4>
+            </div>
+            <div id="foodacc">
+                <i class="ri-shopping-cart-line"></i>
+                <button>sign up</button>
+            </div>
+            <i id="slidenav" class="ri-menu-fill"></i>
+        </div>
+        <div id="foodtop">
+            <img src="./slide_01.jpg"
+                alt="">
+            <div id="foodtoptext">
+                <h1>we deliver the</h1>
+                <h1>taste of life</h1>
+                <p>Get It Delivered Right To Your Door.</p>
+                <div id="locationbtn">
+                    <input type="text" placeholder="Enter your location">
+                    <button>Food Book</button>
+                </div>
+            </div>
+        </div>
+        <div id="foodstep">
+            <div class="footstep1">
+                <div class="foodsteptext">
+                    <div class="step">
+                        <img src="https://my-space.space/deli-taste/assets/images/icons/location.svg" alt="">
+                        <h4>Step 1</h4>
+                    </div>
+                    <h2>Choose location</h2>
+                    <p>Enter your address or choose your current location using app.</p>
+                </div>
+            </div>
+            <div class="footstep1">
+                <div class="foodsteptext">
+                    <div class="step">
+                        <img src="https://my-space.space/deli-taste/assets/images/icons/meat.svg" alt="">
+                        <h4>Step 2</h4>
+                    </div>
+                    <h2>Order Favorite Food</h2>
+                    <p>Choose your favorite food and a payment method.</p>
+                </div>
+            </div>
+            <div class="footstep1">
+                <div class="foodsteptext">
+                    <div class="step">
+                        <img src="" alt="">
+                        <h4>Step 3</h4>
+                    </div>
+                    <h2>Fast Delivery</h2>
+                    <p>Get it delizvered right to your door in 30 Min. or less.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="foodorder">
+            <div id="foodordertop">
+                <h2>69 restaurants</h2>
+                <div id="foodorderres">
+                    <h1><span>Top</span> Restaurants</h1>
+                    <h2>Pure Veg</h2>
+                    <h2>Rating 4.0+</h2>
+                    <h2>Non-Veg</h2>
+                </div>
+            </div>
+            <div id="foodorderstep">
+                <div class="foodorderstep">
+                    <div class="foodstep1" id="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/7.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>CABBAGE SPICY</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/WhatsApp Image 2023-02-18 at 19.45.41.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>PANEER MASALA</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/13.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>SALMON FISH</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/4.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>PARATHE</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/5.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>CHICKEN LOLIPOP</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/8.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>CHOLE KULCHE</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                </div>
+                <h1 id="snaks">Snaks</h1>
+                <div class="foodorderstep">
+
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/3.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>TACOS</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/15.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>LASAGNA</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/19.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>FARMHOUSE PIZZA</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/16.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>GOURMET</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/6.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>SHRIMP</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                    <div class="foodstep1">
+                        <div class="foodimg">
+                            <img src="foodphoto/WhatsApp Image 2023-02-18 at 19.45.42.jpg" alt="">
+                        </div>
+                        <div class="foodname">
+                            <h3>CABBAGE SPICY</h3>
+                            <h4>Indian</h4>
+                        </div>
+                        <div class="foodraing">
+                            <div class="starrating">
+                                <i class="ri-star-line"></i>
+                                <h4>4.0</h4>
+                            </div>
+                            <div class="startwo">
+                                <h4>₹250 for two</h4>
+                            </div>
+                        </div>
+                        <div class="foodbuy">
+                            <button>Add to cart</button>
+                            <div id="foodquantity">
+
+                                <div class="cart-box">
+                                    <div class="qty qty-minus" onclick="decreaseQty('cartQty')">-</div>
+                                    <h1>1</h1>
+                                    <div class="qty qty-plus" onclick="increaseQty('cartQty')">+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="quick">Quick View</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="foodchoose">
+            <div id="foodreason">
+                <h2>The reason why</h2>
+                <h1>Why People Choose Us</h1>
+                <p>We have many advantages but we will highlight only some of them, look below.</p>
+            </div>
+            <div id="reason">
+                <div class="reason1">
+                    <img src="https://my-space.space/deli-taste/assets/images/icons/discount.svg" alt="">
+                    <h2>Discount System</h2>
+                    <p>We have a favorable discount system for our regular customers.</p>
+                </div>
+                <div class="reason1">
+                    <img src="https://my-space.space/deli-taste/assets/images/icons/delivery.svg" alt="">
+                    <h2>Discount System</h2>
+                    <p>We have a favorable discount system for our regular customers.</p>
+                </div>
+                <div class="reason1">
+                    <img src="https://my-space.space/deli-taste/assets/images/icons/food.svg" alt="">
+                    <h2>Discount System</h2>
+                    <p>We have a favorable discount system for our regular customers.</p>
+                </div>
+            </div>
+        </div>
+        <div id="brandpublish">
+            <div class="brandphoto">
+                <img src="https://images.assettype.com/fortuneindia%2F2021-12%2Fed4253d2-7810-4724-93c5-9c36b9ada241%2FFood_Delivery.jpg?w=1250&q=60"
+                    alt="">
+            </div>
+            <div class="brandphoto">
+                <img src="https://www.posist.com/restaurant-times/wp-content/uploads/2016/12/restaurant-delivery-orders-1024x683.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="support">
+                <h1>Phone support</h1>
+                <h6>24 HOURS A DAY</h6>
+                <h5>+91 8709141863</h5>
+            </div>
+            <div class="support">
+                <h1>Follow Us</h1>
+                <h6>social media channels</h6>
+                <p class="sm">
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-facebook-line"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-youtube-fill"></i>
+                </p>
+            </div>
+            <div class="support">
+                <h1>Our Newsletters</h1>
+                <h6>sign up for special offers</h6>
+                <p><input type="email" placeholder="E-MAIL"><button>SUBSCRIBE</button></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <h5>@Copyright 2023 404 NOT FOUND - All Right Reserved</h5>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+        integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
